@@ -169,8 +169,8 @@ header {
   bottom: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 2rem;
-  border: 3px solid #07374a;
+  font-size: 3rem;
+  /* border: 3px solid #07374a; */
   border-radius: 50%;
 }
 
@@ -283,7 +283,7 @@ header {
 }
 
 .progress-line .html {
-  width: 65%;
+  width: 70%;
 }
 
 .progress-line .css {
@@ -298,8 +298,8 @@ header {
   width: 60%;
 }
 
-.progress-line .c {
-  width: 50%;
+.progress-line .Golang {
+  width: 55%;
 }
 
 .bar .progress-line span::before {
@@ -329,7 +329,7 @@ header {
 }
 
 .progress-line .html::after {
-  content: "65%";
+  content: "70%";
 }
 
 .progress-line .css::after {
@@ -344,8 +344,8 @@ header {
   content: "60%";
 }
 
-.progress-line .c::after {
-  content: "50%";
+.progress-line .Golang::after {
+  content: "55%";
 }
 
 .navbar.solid {
